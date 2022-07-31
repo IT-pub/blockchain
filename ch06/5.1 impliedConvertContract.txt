@@ -1,0 +1,14 @@
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity ^0.8.0;
+
+contract ConversionDemo {
+      
+       function Conversion() public pure returns (uint) {
+              int8 small = 10;
+              uint16  large  = small;
+
+              return large;
+        }
+       
+}
